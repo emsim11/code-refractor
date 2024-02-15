@@ -1,55 +1,56 @@
+/* Applies Box-Sizing, Padding, and Margin Styling to All Webpage Elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Applies Background Color to Entire Webpage */
 body {
     background-color: #d9dcd6;
 }
-
-.header {
+/* Applies Padding, Font, Background Color, and Text Color Styling to Webpage's Header Content */
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
-.header h1 {
+/* Applies Display and Font Size Styling to Company's Logo */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
-.header h1 .seo {
+/* Applies Text Color Styling to Specified Part of Company's Logo */
+header h1 .seo {
     color: #d9dcd6;
 }
-
-.nav {
+/* Applies Padding, Margin, Float, Font, and Font Size Styling to Webpage's Navigation Bar within the Header */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.nav ul {
+/* Sets Unordered List Style to Display None in Webpage's Navigation Bar */
+header nav ul {
     list-style-type: none;
 }
-
-.nav ul li {
+/* Applies Display and Left Margin Styling to List Elements in Webpage's Navigation Bar */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Applies Text Color and Text Decoration Styling to the Navigation Bar's Webpage Links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Applies Font Size Styling to Paragraphs on Webpage */
 p {
     font-size: 16px;
 }
-
+/* Applies Image Styling to the Hero Section and Hero Image */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +59,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Applies Image Position Styling to Search Engine Optimization and Social Media Marketing Containers */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Applies Image Position Styling to Online Reputation Management Container */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Applies Text Box Stling to Search Engine Optimization, Online Reputation Management, and Social Media Marketing Containers */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* Applies Styling to the Benefits Container */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,55 +86,55 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* Applies Styling to the Lead Generation Container */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Applies Styling to the Brand Awareness Container */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Applies Styling to the Cost Management Container */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* Applies Styling to the Lead Generation Heading */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Applies Styling to the Brand Awareness Heading */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Applies Styling to the Cost Management Heading */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* Applies Styling to the Lead Generation Image */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Applies Styling to the Brand Awareness Image */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Applies Styling to the Cost Management Image */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* Applies Styling to the Search Engine Optimization Container */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Applies Styling to the Online Reputation Management Container */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Applies Styling to the Social Media Marketing Container */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,41 +161,41 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Applies Styling to the Search Engine Optimization Container's Image */
 .search-engine-optimization img {
     max-height: 200px;
 }
-
+/* Applies Styling to the Online Reputation Management Container's Image */
 .online-reputation-management img {
     max-height: 200px;
 }
-
+/* Applies Styling to the Social Media Marketing Container's Image */
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/* Applies Styling to the Search Engine Optimization Heading */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Applies Styling to the Online Reputation Management Heading */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Applies Styling to the Social Media Marketing Heading */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Applies Styling to the Webpage's Footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* Applies Styling to the Footer's Heading */
 .footer h2 {
     font-size: 20px;
 }
