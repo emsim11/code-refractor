@@ -3,15 +3,12 @@ Columbia Module 1 Challenge: HTML, CSS, Git Challenge
 
 ## User Story
 
-'''
 AS A marketing agency,
 I WANT a codebase that follows accessibility standards,
 SO THAT our own site is optimized for search engines.
-'''
 
 ## Acceptance Criteria
 
-'''
 GIVEN a webpage meets accessibility standards,
 WHEN I view the soruce code,
 THEN I find semantic HTML elements.
@@ -23,13 +20,12 @@ WHEN I view the heading attributes,
 THEN they fall in sequential order.
 WHEN I view the title element,
 THEN I find a concise, descriptive title.
-'''
 
 ## Files
 
 (Deployed Application URL)[link-url]
 
-(Code Refractor Repository)[https://github.com/emsim11/password-generator]
+(Code Refractor Repository)[https://github.com/emsim11/code-refractor]
 
 ## Description
 
