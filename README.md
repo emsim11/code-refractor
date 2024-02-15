@@ -1,5 +1,5 @@
 # Code Refractor
-Columbia Module 1 Challenge: HTML, CSS, Git Challenge
+Columbia Module 1 Challenge: HTML, CSS, Git
 
 ## User Story
 
