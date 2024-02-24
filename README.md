@@ -25,16 +25,13 @@ THEN I find a concise, descriptive title.
 
 (Deployed Application URL)[link-url]
 
-(Repository)[https://github.com/emsim11/code-refractor]
+[Code Refractor Repository](https://github.com/emsim11/code-refractor)
 
 ## Description
 
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors. Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+For this project, I applied skills pertaining to HTML, CSS, and Git to enhance the starter code of a marketing agency's existing site to make it more accessible. Web accessibility is an increasingly important consideration for businesses, as it ensures that people with disabilities can access a website using assistive technologies, such as video captions, image texts, screen readers, and braille keyboards. 
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+Specifically, I **refractored** the code to improve the site - without changing its functionality - and to meet the acceptance criteria provided for this on-the-job ticket. I ensured that the codebase is set for long-term sustainability by making sure that all of the links are functioning correctly. In addition, I adhered to the **Scout Rule**, which recommends that you always leave the code a little cleaner than when you found it. I did this by including comments before each element or section of the page to help better explain what the code does. I also reworked the CSS to make it more efficient by consolidating CSS selectors and properties and organized them to follow the semantic structure of the HTML elements.
 
 ## Visuals
 
@@ -43,7 +40,7 @@ Let people know what your project can do specifically. Provide context and add a
 
 ## Usage
 
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README. Provide instructions and examples for use.
+This on-the-job ticket allowed me to implement new skills through refractoring code. To impress clients, it is always best practice to go the extra mile and improve the codebase for long-term sustainability by ensuring the website functions properly and is best structured for efficiency and long-term use. The project allowed me to enhance accessibility features, such as alternate text for images on the website. Having an accessible website is crucial, as it better positions the site in search engines, and it can help companies avoid litigation that can otherwise occur when people with disabilities are unable to access the company's website.
 
 ## Authors and Acknowledgment
 
